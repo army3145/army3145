@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cleaning Service</title>
+  <link href="css/forms-end.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"href="mystyle.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="wrapper">
+    <section>
+      <h1>Helping Hand</h1>
+      <p>Here at helping hand we make cleaning after a former resident easy</p>
+
+      <form method="POST" action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"></form>
+
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label for="name">Your
+          name</label>
+        <input type="text" id="name" name="name" autofocus>
+        <label for="phone">Phone Number</label>
+ <input type="tel" id="phone number"                         placeholder="Area code included">
+
+          <label for email="email">Email</label>
+          <input type="email" id="email" name="email">
+      </fieldset>
+
+      <fieldset>
+        <legend>Choose Your Serivce</legend>
+        <label for="date">Date service is needed</label>
+
+        <input type="date" id="date" name="date">
+
+        <label for="time">Time to start</label>
+        <input type="time" id="time" name="time">
+        <label for="Type of Service">Number of Rooms</label>
+        <input type="number" id="qty" min="1" max="5">
+
+        <p>Please choose the serivce needed. All services come with deep disinfection. Prices may vary.</p>
+        <label>
+          <input type="radio" name="Move" value="Move Out">Move Out</label>
+
+        <label>
+          <input type="radio" name="Move" value="Move">Move In</label>
+        <label>
+          <input type="radio" name="Standard" value="Standard Cleaning">Standard Cleaning</label>
+        <label>
+          <input type="radio" name="Deep" value="Value">Deep Cleaning</label>
+
+        <label for="comments">Special Request</label>
+        <textarea id="comments" name="comments">
+        </textarea>
+
+        <button type="submit">Submit</button>
+      </fieldset>
+      </form>
+    </section>
+
+    <aside>
+      <h3>Our Location</h3>
+      <iframe src="https://www.google.com/maps/place/USANA+Amphitheatre/@40.6373141,-112.0615348,13.45z/data=!4m13!1m7!3m6!1s0x87523d9488d131ed:0x5b53b7a0484d31ca!2sSalt+Lake+City,+UT!3b1!8m2!3d40.7607793!4d-111.8910474!3m4!1s0x87528d869d1ee20d:0x335b2f731059605a!8m2!3d40.6576738!4d-112.035969" width="400" height="300" frameborder="0" style="border:0" allfullscreen></iframe>
+      
+      <address>
+        Helpers <br>
+        5051 Upper Ridge Rd, <br>
+      West Valley City,UT 84118
+      </address>
+  </aside>
+  </div>
+  
+   <script src="js/form"></script>
+       
+       </body>
+      
+      </html>
+  
+
+
+
+
+
