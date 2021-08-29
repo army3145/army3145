@@ -1,7 +1,7 @@
-- 👋 Hi, I’m @army3145
+- 👋 Hi, Tempest Smith
 - 👀 I’m interested in frontend devolvement
 - 🌱 I’m currently learning HTML CSS and JavaScript
-- 💞️ I’m looking to collaborate on website 
+- 💞️ I’m looking to collaborate on a website 
 - 📫 How to reach me army3145@gmail.com
 
 <!---
